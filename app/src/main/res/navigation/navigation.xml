@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/navigation"
+        app:startDestination="@id/loginFragment">
+
+        <fragment
+            tools:layout="@layout/fragment_login"
+            android:id="@+id/loginFragment"
+            android:name="com.ramonbarrostecnologia.googleloginfirebase.view.fragments.LoginFragment"
+            android:label="LoginFragment" >
+            <action
+                android:id="@+id/action_loginFragment_to_registerFragment"
+                app:destination="@id/registerFragment" />
+            <action
+                android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+                app:destination="@id/forgotPasswordFragment" />
+            <action
+                android:id="@+id/action_loginFragment_to_appActivity"
+                app:destination="@id/appActivity" />
+        </fragment>
+        <fragment
+            tools:layout="@layout/fragment_register"
+            android:id="@+id/registerFragment"
+            android:name="com.ramonbarrostecnologia.googleloginfirebase.view.fragments.RegisterFragment"
+            android:label="RegisterFragment" >
+            <argument
+                android:name="name"
+                app:argType="string"
+                android:defaultValue="" />
+            <argument
+                android:name="email"
+                app:argType="string"
+                android:defaultValue="" />
+            <argument
+                android:name="phoneNumber"
+                app:argType="string"
+                android:defaultValue="" />
+            <argument
+                android:name="uid"
+                app:argType="string"
+                android:defaultValue="@null"
+                app:nullable="true"/>
+            <argument
+                android:name="photoUrl"
+                app:argType="string"
+                android:defaultValue="@null"
+                app:nullable="true"/>
+            <action
+                android:id="@+id/action_registerFragment_to_loginFragment"
+                app:destination="@id/loginFragment" />
+        </fragment>
+        <fragment
+            tools:layout="@layout/fragment_forgot_password"
+            android:id="@+id/forgotPasswordFragment"
+            android:name="com.ramonbarrostecnologia.googleloginfirebase.view.fragments.ForgotPasswordFragment"
+            android:label="ForgotPasswordFragment" >
+            <action
+                android:id="@+id/action_forgotPasswordFragment_to_loginFragment"
+                app:destination="@id/loginFragment" />
+        </fragment>
+        <activity
+            tools:layout="@layout/activity_app"
+            android:id="@+id/appActivity"
+            android:name="com.ramonbarrostecnologia.googleloginfirebase.AppActivity"
+            android:label="AppActivity">
+        </activity>
+</navigation>

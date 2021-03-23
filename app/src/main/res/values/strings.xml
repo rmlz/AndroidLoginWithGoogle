@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">GoogleLoginFireBase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- LOGIN FRAGMENT -->
+    <string name="loginButton">Entrar</string>
+    <string name="loginWithGoogleButton">Entrar com o Google</string>
+    <string name="registerButton">Registrar-se agora.</string>
+    <string name="forgotPassButton">Esqueci minha senha!</string>
+    <string name="emailHint">E-mail</string>
+    <string name="passwordHint">Senha</string>
+    <string name="madeBy">Esse aplicativo foi desenvolvido por Ramon Barros</string>
+    <string name="logoContentDesc">Imagem, Logomarca do AmusicLyrics</string>
+
+    <!-- REGISTER FRAGMENT -->
+    <string name="entryRegisterButton">Cadastrar</string>
+    <string name="register">Crie sua conta agora!</string>
+    <string name="nameHint">Nome Completo</string>
+    <string name="birthdayHint">Nascimento</string>
+    <string name="phoneNumberHint">Telefone</string>
+    <string name="genderHint">Gênero</string>
+    <string name="admRegionHint">Região Administrativa</string>
+    <string name="marriedStatusHint">Casado</string>
+    <string name="hasKidsHint">Filhos</string>
+    <string name="addPhoto">Escolher foto</string>
+
+    <!-- FORGOT PASSWORD FRAGMENT -->
+    <string name="forgotPassword">Esqueceu sua senha?</string>
+    <string name="insertYourRegisteredEmail">Insira seu e-mail cadastrado.</string>
+    <string name="entryForgotButton">Resetar Senha</string>
+
+    <!-- AUTH SUCCESS MESSAGES -->
+    <string name="connectionStabilished">Conexão Estabelecida!</string>
+    <string name="registerSuccess">Sua conta foi registrada com Sucesso!</string>
+    <string name="registerWithProviderSuccess">Maravilha! Vamos completar o seu registro!</string>
+    <!-- AUTH ERROR MESSAGES -->
+    <string name="emptyEmail">O email é obrigatório.</string>
+    <string name="emptyPassword">A senha é obrigatória</string>
+    <string name="emptyName">O nome é obrigatória</string>
+    <string name="emptyBirthday">A data de nascimento é obrigatória</string>
+    <string name="emptyPhoneNumber">O número de telefone é obrigatório</string>
+    <string name="passwordMinimumLimit">A senha deve conter ao menos 6 caracteres.</string>
+    <string name="passwordMaximumLimit">A senha não deve conter mais que 15 caracteres.</string>
+    <string name="invalidEmail">O e-mail inserido é inválido.</string>
+    <string name="notRealName">O nome digitado não parece estar completo.</string>
+    <string name="errorBirthday">A data de nascimento deve estar no formato: 01/01/1990</string>
+    <string name="errorPhoneNumber">O número de telefone deve estar com DDD e sem sinais, no formato: 61999999999</string>
+    <string name="incorrectAuth">Senha incorreta ou conta não existente.</string>
+    <string name="loginWithGoogleError">Não foi possível fazer o login com a conta do Google.</string>
+    <!-- REGISTER SUCCESS MESSAGES -->
+    <string name="accountCreated">Sua conta foi criada com sucesso!</string>
+    <!-- REGISTER ERROR MESSAGES -->
+    <string name="noCameraError">O dispositivo não possui uma Câmera.</string>
+    <string name="cameraError">Não foi possível acessar a câmera do dispositivo.</string>
+    <string name="noPhotoTaken">Tire uma foto bem bonita para o seu registro!</string>
+
+    <!-- RESETPASSWORD SUCCESS MESSAGES -->
+
+    <!-- RESETPASSWORD ERROR MESSAGES -->
+    <string name="passwordReset">SUCESSO! Veja a caixa de entrada do seu EMAIL para finalizar o processo de obtenção da nova senha.</string>
+
+
+    <!-- SPINNER ARRAYS -->
+    <string-array name="genderSpinner">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+
+    <!-- IMAGE PICKER TEXTS -->
+    <string name="image_picker_provider_authority_suffix" translatable="false">.imagepicker.provider</string>
+
+    <string name="title_choose_image_provider">Selecionar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="title_gallery">Galeria</string>
+    <string name="title_camera">Câmera</string>
+
+    <string name="message_gallery_permission_denied">É necessária a permissão para ler o armazenamento externo. Permita o acesso do aplicativo em Configurações > Permissões.</string>
+    <string name="message_camera_permission_denied">Permissão para utilizar a câmera e ler e o armazenamento externo são necessários para capturar a foto. Ao retirar a permissão a aplicação será incapaz de funcionar corretamente. Por favor, autorize as permissões pedidas em  Configurações > Permissões.</string>
+    <string name="permission_gallery_denied">
+        <![CDATA[Permissão para acessar o armazenamento é necessária para escolher uma foto da galeria. Autorize a permissão de Armazenamento em Configurações > Permissões.]]></string>
+    <string name="permission_camera_extended_denied">
+        <![CDATA[Permissão para utilizar a câmera e ler e o armazenamento externo são necessários para capturar a foto. Por favor, autorize as permissões pedidas em  Configurações > Permissões.]]></string>
+    <string name="permission_camera_denied">
+        <![CDATA[É necessária a permissão para ler o armazenamento externo. Permita o acesso do aplicativo em Configurações > Permissões.]]></string>
+
+    <string name="error_failed_to_create_camera_image_file">Não foi possível criar o arquivo de imagem.</string>
+    <string name="error_failed_pick_gallery_image">Não foi possível selecionar a imagem da galeria.</string>
+    <string name="error_failed_to_crop_image">Não foi possível cortar a imagem.</string>
+    <string name="error_failed_to_compress_image">Não foi possível comprimir a imagem.</string>
+    <string name="error_task_cancelled">A tarefa foi cancelada.</string>
+    <string name="error_camera_app_not_found">Aplicativo de câmera não foi encontrado.</string>
+
+</resources>
